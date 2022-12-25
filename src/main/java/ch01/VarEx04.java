@@ -10,6 +10,7 @@ public class VarEx04 {
         System.out.println(Note.num);
         System.out.println(Note.time);
         System.out.println(Note.price);
+        // static은 정적이라는 것을 이해하자
 
     }
 }
