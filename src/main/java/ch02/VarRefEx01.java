@@ -12,8 +12,10 @@ public class VarRefEx01 {
     public static void main(String[] args){
         // 타입 변수 ; int num; 변수를 선언한다
         // 타입 변수 = 값; int num =10; 변수를 초기화(메모리에 할당) 한다.
-        int num =10; // 일반변수 (크기가 정해져 있는 것)
-        MyData d = new MyData(); // 레퍼런스 변수(크기가 정해져 있지 않는것 ==컴파일 시점)
+        int num =10; // 일반변수 (크기가 정해져 있는 것) 값을 가지고있다
+        MyData d = new MyData(); 
+        // 크기가 정해지않으니까 크기를 일단 크게 잡는다 EX) CLASS 자료형 BEAN같은
+        // 레퍼런스 변수는 주소를 가지고있다 주소를 찾아 값을 찾는다(크기가 정해져 있지 않는것 ==컴파일 시점)
     }
 
 }
