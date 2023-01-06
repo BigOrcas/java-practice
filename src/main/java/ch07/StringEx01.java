@@ -7,5 +7,10 @@ public class StringEx01 {
        System.out.println(s1);
        System.out.println(s2);
        System.out.println(s1==s2); // 주소를 비교
+
+       String s3 ="바다";
+       String s4 ="바다";
+       System.out.println(s3==s4);
+
    }
 }

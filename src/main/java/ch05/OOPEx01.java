@@ -29,5 +29,7 @@ public class OOPEx01 {
 
         System.out.println("갈증지수 :" +p1.목마름상태확인());
 
+
+
     }
 }
